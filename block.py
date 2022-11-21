@@ -10,7 +10,7 @@ class Block(Model):
         self.index = index
         self.timestamp = timestamp
         self.tx = tx
-        self.previous_block = previous_hash
+        self.previous_block = previous_hashdfa 
 
     def header_hash(self):
         """
